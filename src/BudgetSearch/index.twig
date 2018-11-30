@@ -1,0 +1,25 @@
+<div id="app">
+    <div class="search">
+        <label for="search-input" class="search__label">Find you machine:</label>
+        <input {{ {
+            'type': 'text',
+            'value': userBudget > 0 ? userBudget : '',
+            'id': 'search-input',
+            'class': 'search__input',
+            'placeholder': 'Write your budget',
+            'ref': searchInput
+        } | attrs }} />
+    </div>
+    <ul class="list">
+        {% for item in currentList %}
+            <li class="list__item" key="{{item.name}}">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.text }}</p>
+                <p>{{ item.price }} eur</p>
+                <div class="list__item-button-wrapper">
+                    <button>View details</button>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

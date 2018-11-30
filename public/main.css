@@ -1,0 +1,56 @@
+
+body {
+  background-color: #f6f6f6;
+}
+code {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  color: #2c3e50;
+}
+
+code::before, code::after {
+  content: '`';
+}
+
+#app {
+  text-align: center;
+}
+
+.search {
+  font-size: 24px;
+  margin: 40px;
+}
+
+.list {
+  font-size: 24px;
+  font-weight: 300;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list__item {
+  background-color: #ffffff;
+  border: 1px solid #2c3e50;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  min-width: 380px;
+  text-align: left;
+}
+
+.list__item-button-wrapper {
+  text-align: right;
+}
+
+button {
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 16px;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Apple Mac Pro",
+        "text": "Very nice man, buy it and love it",
+        "price": 2000
+    },
+    {
+        "name": "Lenovo Thinkpad",
+        "text": "Very nice man, good for it`s price",
+        "price": 1500
+    },
+    {
+        "name": "Dell",
+        "text": "Not so nice, but usable",
+        "price": 1000
+    },
+    {
+        "name": "HP",
+        "text": "Consider it when low budget",
+        "price": 800
+    },
+    {
+        "name": "Calculator",
+        "text": "Man, it`s a calculator, simple calculator",
+        "price": 15
+    }
+]
